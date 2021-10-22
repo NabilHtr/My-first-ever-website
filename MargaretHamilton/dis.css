@@ -1,0 +1,70 @@
+
+html, body {height: 100%; }
+
+body {
+	background-color: #345;
+    font-size: 62.5%;
+	}
+.links {
+    background-color: #123;
+	font-size: 2em;
+    font-weight: 300;
+    display: grid;
+	grid-template-columns: repeat(var(--items), 1fr);
+	position: relative;
+}
+
+.links > a {
+	color: tan;
+	padding: 12px;
+	text-align: center;
+	text-decoration: none;
+}
+.links > a:hover {
+	background: #ffffff06;
+	color: #adf;
+}
+#header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+
+.xx
+{
+	font-size: 300%;
+	color: tan;
+}
+button
+{
+	margin-left: 4px;
+	margin-right: 4px;
+	margin-top: 10px;
+	padding: 20px 20px;
+	border-radius: 50%;
+}
+
+#liste
+{
+	color: beige;
+	text-align: center;
+	font-size: 30px;
+	padding: 20px 40px;
+	white-space: pre-line;
+}
+
+#vid
+{
+	padding: 40px 5px;
+}
+
+#intro
+{
+	margin-top: 300px;
+	margin-left: 180px;
+	margin-right: 180px;
+	background-color: tan;
+	color: white;
+}
